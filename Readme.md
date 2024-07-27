@@ -43,6 +43,9 @@ Copy code
 npm install
 
 Create a .env file in the root directory and set up the necessary environment variables, including database connection details.
+PORT=3000
+JWT_SECRET=hjvjhhjhj
+DATABASE_URL=postgres://username:password@localhost:5432/databasename
 
 ### Run the application:
 bash
@@ -181,3 +184,6 @@ You can find the API documentation in Postman using the provided collection. Imp
 Note
 Use the credentials provided for login.
 All API requests except login require a valid JWT token in the Authorization header.
+
+
+
